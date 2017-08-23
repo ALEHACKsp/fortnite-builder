@@ -27,7 +27,9 @@
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
 
         "predis/predis": "~1.0",
-        "wp-cli/wp-cli": "^1.0"
+        "wp-cli/wp-cli": "^1.0",
+		
+		"benmcntsh/fortnite-builder-theme": "dev-master"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
@@ -56,7 +58,11 @@
         {
             "type": "composer",
             "url": "https://wp-cli.org/package-index"
-        }
+        },
+		{
+			"type": "vcs",
+			"url": "https://github.com/benmcntsh/fortnite-builder-theme.git"
+		}
     ],
     "extra": {
         "installer-paths": {

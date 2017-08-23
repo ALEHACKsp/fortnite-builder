@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e958007b896965cfb843f85e5c5132f2",
+    "content-hash": "32f64a0df2a32bd1a59ccb1291ca6312",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -46,6 +46,37 @@
                 "source": "https://github.com/Automattic/batcache"
             },
             "time": "2016-09-09T18:37:55+00:00"
+        },
+        {
+            "name": "benmcntsh/fortnite-builder-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/benmcntsh/fortnite-builder-theme.git",
+                "reference": "d5ab4f0cadddb59ef582d041d90979e6383bcaf2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/benmcntsh/fortnite-builder-theme/zipball/d5ab4f0cadddb59ef582d041d90979e6383bcaf2",
+                "reference": "d5ab4f0cadddb59ef582d041d90979e6383bcaf2",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "Ben McIntosh",
+                    "email": "ben.mcintosh@gmail.com",
+                    "homepage": "http://fortnitebuilder.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Custom theme for fortnitebuilder.com built on boostrap and material design",
+            "homepage": "https://github.com/benmcntsh/fortnite-builder-theme",
+            "support": {
+                "source": "https://github.com/benmcntsh/fortnite-builder-theme/tree/master",
+                "issues": "https://github.com/benmcntsh/fortnite-builder-theme/issues"
+            },
+            "time": "2017-08-23T05:10:59+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -2711,16 +2742,16 @@
         },
         {
             "name": "wp-cli/scaffold-command",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/scaffold-command.git",
-                "reference": "66197c58925cb54ea64320bcb277753661f6b73f"
+                "reference": "decd72649677fa0f731874fe73f792aa80f09f24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/scaffold-command/zipball/66197c58925cb54ea64320bcb277753661f6b73f",
-                "reference": "66197c58925cb54ea64320bcb277753661f6b73f",
+                "url": "https://api.github.com/repos/wp-cli/scaffold-command/zipball/decd72649677fa0f731874fe73f792aa80f09f24",
+                "reference": "decd72649677fa0f731874fe73f792aa80f09f24",
                 "shasum": ""
             },
             "require-dev": {
@@ -2765,7 +2796,7 @@
             ],
             "description": "Generate code for post types, taxonomies, plugins, child themes, etc.",
             "homepage": "https://github.com/wp-cli/scaffold-command",
-            "time": "2017-08-04T11:49:31+00:00"
+            "time": "2017-08-22T13:48:33+00:00"
         },
         {
             "name": "wp-cli/search-replace-command",
@@ -3245,7 +3276,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "automattic/batcache": 20
+        "automattic/batcache": 20,
+        "benmcntsh/fortnite-builder-theme": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
