@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "32f64a0df2a32bd1a59ccb1291ca6312",
+    "content-hash": "9b112095ebc87e379213eea70a48f5f9",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/benmcntsh/fortnite-builder-theme.git",
-                "reference": "d5ab4f0cadddb59ef582d041d90979e6383bcaf2"
+                "reference": "d3ff9603d9a7ca1d0f17673c17c6f34b89d4cb37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benmcntsh/fortnite-builder-theme/zipball/d5ab4f0cadddb59ef582d041d90979e6383bcaf2",
-                "reference": "d5ab4f0cadddb59ef582d041d90979e6383bcaf2",
+                "url": "https://api.github.com/repos/benmcntsh/fortnite-builder-theme/zipball/d3ff9603d9a7ca1d0f17673c17c6f34b89d4cb37",
+                "reference": "d3ff9603d9a7ca1d0f17673c17c6f34b89d4cb37",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -76,7 +76,7 @@
                 "source": "https://github.com/benmcntsh/fortnite-builder-theme/tree/master",
                 "issues": "https://github.com/benmcntsh/fortnite-builder-theme/issues"
             },
-            "time": "2017-08-23T05:10:59+00:00"
+            "time": "2017-08-23T05:34:53+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -3270,6 +3270,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/ultimate-member",
+            "version": "1.3.88",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ultimate-member/",
+                "reference": "tags/1.3.88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ultimate-member.1.3.88.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ultimate-member/"
         }
     ],
     "packages-dev": [],
